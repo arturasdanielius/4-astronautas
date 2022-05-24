@@ -1,4 +1,6 @@
-header {
+header,
+main,
+footer, {
     width: 800px;
     margin: auto;
     margin-bottom: 30px;
@@ -6,16 +8,27 @@ header {
 
 }
 
-main {
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
-    background-color: green;
+header > img {
+    background-color: blue;
 }
 
-footer {
-    width: 800px;
-    margin: auto;
-    margin-bottom: 30px;
+nav > a {
+    background-color: red
+
+}
+
+a {
     background-color: red;
+}
+
+main {
+   
+    
+}
+
+main a {
+    background-color: orange
+
+footer {
+   
 }
