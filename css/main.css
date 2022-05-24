@@ -1,6 +1,6 @@
 header,
 main,
-footer, {
+footer {
     width: 800px;
     margin: auto;
     margin-bottom: 30px;
@@ -22,12 +22,12 @@ a {
 }
 
 main {
-   
-    
+
 }
 
 main a {
     background-color: orange
+}
 
 footer {
    
