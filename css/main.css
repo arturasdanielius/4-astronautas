@@ -5,41 +5,36 @@ footer {
     width: 800px;
     margin-bottom: 30px;
     margin-left: calc(50% - 400px);
-    background-color: yellow;
-
 }
 
-header > img {
+header>img {
     float: left;
-
 }
 
-nav > a {
+nav>a {
     float: left;
     margin-right: 10px;
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
-    
 }
 
 nav {
-    
     margin-top: 10px;
     float: right;
-    
 }
 
-nav > a:nth-of-type(4) {
-    background-color: red;
+nav>a:nth-of-type(4) {}
 
+a {}
+
+
+main>div {
+    width: 40px;
+    float: left;
 }
 
-a {
-
-}
-
-main {}
+div {}
 
 main a {
     background-color: orange
