@@ -93,9 +93,19 @@ main a {
     color: #fff;
 }
 
+main a:first-child:hover {
+    color:#648;
+    background-color: #fff;
+}
+
 main a:last-child {
     color: #648;
     background-color: #fff;
+}
+
+main a:last-child:hover {
+    color: #fff;
+    background-color: #648;
 }
 
 main>img {
@@ -103,7 +113,6 @@ main>img {
     float: right;
     transition: all 1.5s;
 }
-
 
 main > img:hover {
     transform: rotate(360deg);
@@ -134,4 +143,5 @@ footer div > a + a {
 footer p {
     float: right;
     margin: 0;
+    font-style: italic;
 }
